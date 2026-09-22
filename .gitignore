@@ -1,0 +1,25 @@
+# dependencies
+node_modules
+frontendnode_modules
+backendnode_modules
+
+# build output
+frontenddist
+frontendbuild
+
+# secrets - never commit these
+.env
+backend.env
+frontend.env
+
+# logs
+.log
+npm-debug.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode
+.idea
