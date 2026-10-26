@@ -12,7 +12,7 @@ const reportRoutes = require("./routes/reportRoutes");
 connectDB();
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: process.env.https://personal-finance-mangement.netlify.app}));
 app.use(express.json());
 
 app.get("/api/health", (req, res) => res.json({ status: "ok" }));
